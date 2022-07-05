@@ -60,13 +60,13 @@ switch(type)
 if (budget >= totalPrice)
 {
 	double Rest = budget - totalPrice;
-	result = "Hey, you have a great garden with " + br + " " + type + " and " + Rest + " leva left.";
+	Console.WriteLine("Hey, you have a great garden with " + br + " " + type + " and " + Rest + " leva left.");
 }
 
 else
 {
 	double expense = totalPrice - budget;
-	result = "Not enough money, you need " + expense + " leva more.";
+	Console.WriteLine("Not enough money, you need " + expense + " leva more.");
 }
 
 
